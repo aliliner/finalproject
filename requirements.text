@@ -15,6 +15,7 @@ requests
 circlify
 folium
 sklearn
+networkx
 streamlit_folium
 pyvis
 pygeos
