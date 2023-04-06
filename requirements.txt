@@ -13,10 +13,9 @@ shapely
 requests
 circlify
 folium
-sklearn
 networkx
 streamlit_folium
 pyvis
 pygeos
 geopandas
-sklearn.model_selection
+sklearn
