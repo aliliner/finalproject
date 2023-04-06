@@ -17,10 +17,10 @@ from sklearn.neighbors import KNeighborsRegressor
 from streamlit_folium import folium_static
 from pyvis.network import Network
 
-df = pd.read_csv(r'C:\Users\lizzie\Desktop\winedata.csv')
-df4 = pd.read_csv(r'C:\Users\lizzie\Desktop\codes_cntr.csv')
-df11 = pd.read_csv(r'C:\Users\lizzie\Desktop\wineries.csv')
-df_msk = pd.read_csv(r'C:\Users\lizzie\Desktop\msk_data.csv')
+df     = pd.read_csv('winedata.csv')
+df4    = pd.read_csv('codes_cntr.csv')
+df11   = pd.read_csv('wineries.csv')
+df_msk = pd.read_csv('msk_data.csv')
 
 with st.echo(code_location='below'):
     # parse simplewine.ru using the Scrappy library in the file smpl.py
