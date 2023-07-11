@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import networkx as nx
 import streamlit as st
 import geopandas as gpd
 import plotly.express as px
